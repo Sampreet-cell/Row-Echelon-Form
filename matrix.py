@@ -1,7 +1,7 @@
 import os
 from row_echelon_form import *
 
-matrix=[[4,8,3],[5,-5,2],[3,-9,-6]]
+matrix=[[4,8,3],[5,-5,2],[3,-9,-6]]   #<--Enter a square matrix
 solution=REF(matrix)
 os.system("cls")
 print("Initial Matrix: ")
